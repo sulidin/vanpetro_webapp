@@ -1,9 +1,11 @@
 'use client';
 import React from 'react'
 import { Buttons } from '@components/Buttons';
+import { useRouter } from 'next/navigation';
 
 
 export default function ContactForm() {
+  const router = useRouter();
 const handleOnSubmit = async (e) =>
   {
     e.preventDefault();
@@ -19,6 +21,8 @@ const handleOnSubmit = async (e) =>
       method: 'POST',
       body: JSON.stringify(formData),
     });
+    alert("Message send successfully");
+    router.push("/");
   }
 
     return (

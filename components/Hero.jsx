@@ -1,6 +1,7 @@
 import React from 'react'
 import { Buttons } from '@components/Buttons';
 
+
 function Hero() {
   return (
     <div className='hero-container
@@ -8,9 +9,9 @@ function Hero() {
      
           <h1>OVER 50 YEARS OF EXPERIENCE</h1>
           <h3>Enabling Breakthroughs in Mining, Petroleum, and Scientific Research through VanPetro`s Unrivalled Experience</h3>      
-        <div className="hero-btns">
-            <Buttons className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
-                ORDER ONLINE
+        <div  className="hero-btns">
+            <Buttons className='btns' buttonStyle='btn--primary' buttonSize='btn--large' >
+                <a href="/order">ORDER ONLINE</a>
             </Buttons>
         </div>
     </div>

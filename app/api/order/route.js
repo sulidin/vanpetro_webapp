@@ -5,7 +5,7 @@ export const GET = async (request) => {
     try {
         await connectToDB();
        
-        const orders = await Order.find({}).sort({ date: -1 }).populatepopulate('userId');
+        const orders = await Order.find({}).sort({ date: -1 }).populate('userId');
 
         return new Response(JSON.stringify(orders), {
             status: 200,})

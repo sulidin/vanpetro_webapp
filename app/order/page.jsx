@@ -61,6 +61,7 @@ const Order = () => {
 
       if (response.ok) {
         //ADD MODAL
+        alert("Order submitted successfully");
         router.push("/");
       }
     } catch (error) {
