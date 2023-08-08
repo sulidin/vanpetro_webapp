@@ -46,7 +46,7 @@ const OrderForm = ({ type, post, setPost, submitting, handleSubmit }) => {
         <div className='order-form my-10 mb-20 mx-50'>
             <h1 className='text-center'>Please fill out the form below before sending your samples.</h1>
 
-            <p className='my-4 text-center mb-10'>Once you submit this form, you will receive a confirmation email with a PDF containing the information you submit. Print the PDF and include it with any samples you send. Thank you!</p>
+            <p className='my-4 text-center mb-10'>Once you submit this form, you will receive a confirmation email with the information you submit. Print the page and include it with any samples you send. Thank you!</p>
             <form onSubmit={(e) => { handleSubmit(e); onSubmit(e); }}>
 
                 {/* CONTACT INFORMATION*/}
