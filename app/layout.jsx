@@ -3,7 +3,7 @@ import '@styles/globals.css'
 import '@styles/Style.css'
 import Navbar from '@components/Navbar'
 import Provider from '@components/Provider'
-import Footer from '@components/footer'
+import Footer from '@components/Footer'
 
 
 
