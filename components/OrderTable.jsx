@@ -1,7 +1,8 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import Order from '@components/Order';
-import OrderDetails from './OrderDetails';
+import OrderDetails from '@components/OrderDetails';
+
 
 
 
@@ -25,6 +26,7 @@ const OrderList = ({ data, handleClick, selectedOrderId }) => {
 
 
 const OrderTable = () => {
+   
     const [selectedOrder, setSelectedOrder] = useState(null);
     const [allOrders, setAllOrders] = useState([]);
     const [selectedOrderId, setSelectedOrderId] = useState(null); // Track selected orderId

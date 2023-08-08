@@ -1,6 +1,5 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import { Table } from 'flowbite-react';
 import Order from '@components/Order';
 import { useSession } from "next-auth/react"
 import OrderDetails from '@components/OrderDetails';
